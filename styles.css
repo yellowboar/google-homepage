@@ -1,4 +1,7 @@
 body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
@@ -52,7 +55,7 @@ body {
     margin-top: 3px;
     display: flex;
     justify-content: center;
-    gap: 13px;
+    gap: 10px;
 }
 
 button {
@@ -61,16 +64,23 @@ button {
     font-size: 14px;
     height: 36px;
     width: 130px;
-    background-color: rgb(230, 228, 228);
+    background-color: #f8f9fa;
     color: #3c4043;
 }
 
+#button1 {
+    width: 130px;
+}
+#button2 { 
+    width: 145px;
+}
 .space {
-
+    height: 317px;    
 }
 
-.header {
-    
+.footer {
+    height: 46px;
+    background-color: #f2f2f2;
 }
 
 
