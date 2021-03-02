@@ -1,2 +1,2 @@
 # Google Homepage
-Made for The Odin Project to practice HTML and CSS.
+HTML and CSS practice.
