@@ -128,10 +128,38 @@ button {
 
 .footer {
     height: 47px;
+    display: flex;
     background-color: #f2f2f2;
+    align-items: center;
+}
+
+.left-f {
+    margin-left: 9px;
+    margin-bottom: 1px;
+}
+
+.left-f a {
+    margin-left: 26px;
+}
+
+.right-f {
+    margin: 0px 9px 1px auto;
+}
+
+.right-f a {
+    margin-right: 26px;
 }
 
 .footer a {
     color: #70757a;
+}
+
+.middle {
+    margin: 0px 108px 2px auto;
+}
+
+.middle img {
+    width: 12px;
+    margin-right: 2px;
 }
 
