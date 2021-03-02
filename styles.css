@@ -1,7 +1,5 @@
 body {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin: 0;
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
@@ -15,9 +13,59 @@ body {
 
 .header {
     display: flex;
-    align-items: center;
     padding: 6px;
-    height: 60px;
+    height: 48px;
+    align-items: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    margin-left: 4px;
+}
+
+.left a {
+    margin-left: 16px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 13px;
+}
+
+.right a {
+    margin-right: 15px;
+    margin-bottom: 2px;
+}
+
+#appbtn {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 14px;
+    margin-left: 2px;
+    background: #fff;
+}
+
+#appbtn:hover {
+    background-color: #e8e9e9;
+}
+
+#signinbtn {
+    margin-right: 12px;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    color: #fff;
+    width: 96px;
 }
 
 .picture {
@@ -28,7 +76,7 @@ body {
 .logo-container {
     display: flex;
     flex-direction: column;
-    height: 234px;
+    height: 254px;
     justify-content: flex-end;
     width: fit-content;
 }
@@ -75,12 +123,15 @@ button {
     width: 145px;
 }
 .space {
-    height: 317px;    
+    height: 316px;    
 }
 
 .footer {
-    height: 46px;
+    height: 47px;
     background-color: #f2f2f2;
 }
 
+.footer a {
+    color: #70757a;
+}
 
